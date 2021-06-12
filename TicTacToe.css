@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&family=Roboto+Mono&display=swap');
+.Vertical{
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+
+.Horizontal{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+td{
+	width: 150px;
+	height: 150px;
+	vertical-align: middle;
+}
+input{
+	width: 95%;
+	height:  95%;
+	border: none;
+	outline: none;
+	caret-color:white;
+	cursor: pointer;
+	font-size: 4em;
+	text-align: center;
+	font-family: "Prompt";
+	user-select: none;
+}
+input:disabled{
+	color: black;
+	user-select: none;
+
+}
+table{
+	margin: 100px auto;
+}
+h1{
+	font-family: "Roboto Mono";
+	text-align: center;
+}
+
